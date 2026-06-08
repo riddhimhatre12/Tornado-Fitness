@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Brand Gradient representing the energy and premium style of Tornado Fitness -->
+    <linearGradient id="brand-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D4FF" />
+      <stop offset="100%" stop-color="#00A2C2" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Rounded Background Square matching the brand logo container -->
+  <rect x="32" y="32" width="448" height="448" rx="112" fill="url(#brand-grad)" />
+  
+  <!-- Slanted "T" Icon representing Tornado Fitness with dynamic speed/motion slant -->
+  <path 
+    d="M 126 130 H 386 V 200 H 291 V 380 H 221 V 200 H 126 Z" 
+    fill="#0F0F0F" 
+    transform="translate(256, 256) skewX(-10) translate(-256, -256)"
+  />
+</svg>
